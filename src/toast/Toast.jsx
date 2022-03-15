@@ -2,7 +2,7 @@ import React, { useState } from "react";
 export const ToastContainer = ({ className = "", children, ...otherProps }) => {
   return (
     <aside
-      className={`fixed h-auto overflow-y-auto top-4 right-[50%]  translate-x-[50%] lg:-translate-x-[10%] lg:top-auto lg:bottom-4 max-h-[100vh] lg:right-4 bg-black    text-center ${className}`}
+      className={`fixed h-auto overflow-y-auto top-4 right-[50%]  translate-x-[50%] lg:-translate-x-[10%] lg:top-auto lg:bottom-4 max-h-[100vh] lg:right-4      text-center ${className}`}
       {...otherProps}
     >
       {children}
